@@ -22,16 +22,18 @@ spring:
             - accounts
             - loans
             - cards
-    bus:
-      trace:
-        enabled: true
+            - eurekaconfig
+
+#    bus:
+#      trace:
+#        enabled: true
 
 
-  rabbitmq:
-    host: "localhost"
-    port: 5672
-    username: "guest"
-    password: "guest"
+#  rabbitmq:
+#    host: "localhost"
+#    port: 5672
+#    username: "guest"
+#    password: "guest"
 
 management:
   endpoints:
