@@ -23,6 +23,7 @@ spring:
             - loans
             - cards
             - eurekaconfig
+            - gatewayserver
 
 #    bus:
 #      trace:
